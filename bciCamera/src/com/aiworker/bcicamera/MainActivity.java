@@ -490,14 +490,15 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback{
 	                    TGEegPower eegPower = (TGEegPower) msg.obj;
 	                    APIClient.collectEEGPower(null, eegPower);
 	                    
-	                   /* delta = eegPower.delta;
+	                    delta = eegPower.delta;
 	                    high_alpha = eegPower.highAlpha;
 	                    high_beta = eegPower.highBeta;
 	                    low_alpha = eegPower.lowAlpha;
 	                    low_beta = eegPower.lowBeta;
 	                    low_gamma = eegPower.lowGamma;
 	                    mid_gamma = eegPower.midGamma;
-	                    theta = eegPower.theta;*/
+	                    theta = eegPower.theta;
+	                    
 	                    break;
 	                default:
 	                    break;
